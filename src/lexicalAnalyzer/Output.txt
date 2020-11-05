@@ -1,0 +1,34 @@
+<BOOL> : bool
+<ID> : isPowerOfTwo
+<RIGHT_ROUND_B> : (
+<INT> : int
+<ID> : x
+<LEFT_ROUND_B> : )
+<RIGHT_CURLY_B> : {
+<MULTI_COMMENT> : /* First x in the below expression is
+
+ for the case when x is 0 */
+<SINGLE_COMMENT> : //for the case when x is 0
+
+
+<RETURN> : return
+<ID> : x
+<AND> : &&
+<RIGHT_ROUND_B> : (
+<NOT > : !
+<RIGHT_ROUND_B> : (
+<ID> : x
+<BITWISE_AND> : &
+<RIGHT_ROUND_B> : (
+<ID> : x
+<MINUS> : -
+<INTEGRAL_LITERAL> : 1
+<LEFT_ROUND_B> : )
+<LEFT_ROUND_B> : )
+<LEFT_ROUND_B> : )
+<SEMICOLON> : ;
+<LEFT_CURLY_B> : }
+<FLOAT> : float
+<ID> : x
+<ASSIGN_OPERATOR> : =
+<FLOAT_LITERAL> : 3.4
